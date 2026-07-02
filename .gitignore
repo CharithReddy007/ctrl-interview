@@ -1,0 +1,73 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+*.eggs/
+pip-wheel-metadata/
+*.so
+.Python
+env/
+venv/
+.venv/
+venv.bak/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+build/
+dist/
+eggs/
+parts/
+sdist/
+develop-eggs/
+*.manifest
+*.spec
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnp/
+.pnp.js
+dist/
+build/
+/.vite
+
+# Backend & frontend env files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.local
+frontend/.env
+frontend/.env.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+logs/
+*.log
+
+# Coverage and reports
+coverage/
+coverage.*
+
+# Misc
+Thumbs.db
+*.sqlite3
+/.DS_Store
